@@ -24,7 +24,7 @@ t_ACD7=df['Time_ADC7']
 Fs=1000000/(t[1]-t[0]) #Number of samples per second
 #TIME FRAME
 T=t[499]/1000000 #Total time
-#BLOCK SIZE
+#BLOCK SIZE, Total number of samples
 N=500
 SL=N/2 #Spectral lines
 #MAX FREQUENCY
